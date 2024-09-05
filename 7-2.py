@@ -6,8 +6,8 @@ def tickers_to_dict(filename):
             if ':' in line:
                 parts = line.split(':')
 
-            name, symbol = parts
-            tickers[name.strip()] = symbol.strip()
+            key, value = parts
+            tickers[key.strip()] = value.strip()
             
     return tickers
 

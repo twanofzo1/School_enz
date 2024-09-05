@@ -1,10 +1,10 @@
-Dict = {'a': 1, 'b': 2, 'c': 9}
+Dict = {'a': 1.0, 'b': 2.0, 'c': 9.0}
 
 def hoogvliegers(dict_studenten_cijfers):
     hoogvliegers = {}
-    for student in dict_studenten_cijfers:
-        if dict_studenten_cijfers[student] >= 9.0:
-            hoogvliegers[student] = dict_studenten_cijfers[student]
+    for student , cijfer in dict_studenten_cijfers.items():
+        if cijfer >= 9.0:
+            hoogvliegers[student] = cijfer
     return hoogvliegers
 
 print(hoogvliegers(Dict))
