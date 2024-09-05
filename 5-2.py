@@ -1,9 +1,10 @@
-def H5Opdr2():
-    def pretty_print(filepath):
-        prettyText = []
-        contents = open(filepath, "r")
-        for line in contents:
-            contents = line.split(",")
-            prettyText.append(f"{contents[1]} heeft kaartnummer: {contents[0]}")
-        contents.close()
-        return prettyText
+def pretty_print(filepath):
+    prettyText = []
+    with open(filepath, "r") as file:
+        for line in file:
+            parts = line.strip().split(",")
+            prettyText.append(f"{parts[1]} heeft kaartnummer: {parts[0]}")
+    
+    return "\n".join(prettyText)
+
+print(pretty_print("kaartnummers.txt"))

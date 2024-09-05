@@ -11,3 +11,5 @@ def H3Opdr3():
         print("herfst")
     else:
         print("winter")
+
+H3Opdr3()

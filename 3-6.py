@@ -4,6 +4,4 @@ def H3Opdr6():
         if letter in "aeiou":
             print(letter)
 
-def H4Opdr1():
-    def som(getal1, getal2, getal3):
-        return getal1 + getal2 + getal3
+H3Opdr6()
