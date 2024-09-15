@@ -1,0 +1,24 @@
+Film
+
+    Filmtitel
+    Jaar van uitkomst
+    Regisseur-ID 
+    Regisseur
+        Regisseur-ID
+        Naam
+        Geboortedatum
+        Nationaliteit
+    FilmActeur
+        FilmActeur-ID 
+        Film-ID 
+        Acteur-ID 
+        Personage
+    Gebruiker
+        Gebruikersnaam
+        Wachtwoord
+        Emailadres
+        Beoordeling
+            Beoordeling-ID
+            Score
+            Film-ID 
+            Gebruikersnaam 

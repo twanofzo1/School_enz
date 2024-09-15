@@ -1,0 +1,13 @@
+Cursus
+    Cursusnummer (PK)
+    Cursusnaam
+    Code
+    Aantal te behalen EC
+    Ingangsdatum
+    Einddatum
+
+    Toetsonderdeel
+        Onderdeelnummer (PK)
+        Naam
+        Wegingspercentage
+        Cursusnummer 

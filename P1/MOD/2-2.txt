@@ -1,0 +1,13 @@
+School
+    Schoolnummer
+    Schoolnaam
+    Adres
+    Aantal leerlingen
+
+    Leerling
+        Leerlingnummer
+        Naam
+        Geboortedatum
+        Schoolnummer
+        Relaties:
+

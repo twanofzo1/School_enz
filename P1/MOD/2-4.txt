@@ -1,0 +1,16 @@
+Speler
+    Spelersnummer 
+    Nickname
+    Avatar
+
+    Game
+        Gamenummer 
+        Naam
+
+        Score
+            Score-ID 
+            Speeltijd
+            Speeldatum
+            Behaalde punten
+            Spelersnummer 
+            Gamenummer 

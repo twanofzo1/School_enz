@@ -1,0 +1,13 @@
+Tijdschrift
+    Tijdschriftnummer
+    Naam
+    Oplage
+    Abonnee
+        Abonneenummer
+        Naam
+        Adres
+        Abonnement
+            Abonnement-ID 
+            Aantal tijdschriften
+            Tijdschriftnummer 
+            Abonneenummer 

@@ -1,0 +1,22 @@
+Club
+    Club-ID
+    Naam
+    Adres
+    Woonplaats
+    Logo
+
+    Speler
+        Speler-ID 
+        Naam
+        Adres
+        Woonplaats
+        Geboortedatum
+
+        Lidmaatschap
+            Lidmaatschaps-ID 
+            Begindatum
+            Einddatum
+            Speler-ID 
+            Club-ID 
+
+
